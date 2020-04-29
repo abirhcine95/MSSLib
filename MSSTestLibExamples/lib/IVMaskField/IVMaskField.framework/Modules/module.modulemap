@@ -1,0 +1,11 @@
+framework module IVMaskField {
+  umbrella header "IVMaskField-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module IVMaskField.Swift {
+    header "IVMaskField-Swift.h"
+    requires objc
+}

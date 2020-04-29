@@ -1,0 +1,11 @@
+framework module AKMaskField {
+  umbrella header "AKMaskField-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module AKMaskField.Swift {
+    header "AKMaskField-Swift.h"
+    requires objc
+}

@@ -1,0 +1,11 @@
+framework module JMMaskTextField_Swift {
+  umbrella header "JMMaskTextField-Swift-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module JMMaskTextField_Swift.Swift {
+    header "JMMaskTextField_Swift-Swift.h"
+    requires objc
+}
